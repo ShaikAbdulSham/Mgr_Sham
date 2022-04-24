@@ -11,7 +11,7 @@ describe("SignUp Login and Update Cart Application",function(){
     it('verify the Title',async function(){    
         CommonPage.openHomePage();
         console.log(await CommonPage.getPageTitle());
-        expect(await CommonPage.getPageTitle()).toHaveTextContaining('My ');
+        expect(await CommonPage.getPageTitle()).toHaveTextContaining('My Store');
 
     })
 
