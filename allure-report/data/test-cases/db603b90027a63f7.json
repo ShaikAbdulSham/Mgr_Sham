@@ -1,0 +1,145 @@
+{
+  "uid" : "db603b90027a63f7",
+  "name" : "navigate to Sign In Page",
+  "fullName" : "SignUp Login and Update Cart Application.navigate to Sign In Page",
+  "historyId" : "432a8cd15eb186a030259063d9e07377",
+  "time" : {
+    "start" : 1650639927281,
+    "stop" : 1650639934006,
+    "duration" : 6725
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650639927952,
+        "stop" : 1650639927963,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56a1fbfbae337458",
+        "name" : "Request",
+        "source" : "56a1fbfbae337458.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "a3733cdf1c0499e2",
+        "name" : "Response",
+        "source" : "a3733cdf1c0499e2.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementClick",
+      "time" : {
+        "start" : 1650639927972,
+        "stop" : 1650639927999,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72e1597169d4eced",
+        "name" : "Request",
+        "source" : "72e1597169d4eced.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigate to Sign In Page"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "437c8d5b66797eee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639871286,
+        "stop" : 1650639879045,
+        "duration" : 7759
+      }
+    }, {
+      "uid" : "abc829987bfa92a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650627738938,
+        "stop" : 1650627745015,
+        "duration" : 6077
+      }
+    }, {
+      "uid" : "2f7a7424366f3424",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"a.login\" because element wasn't found",
+      "time" : {
+        "start" : 1650627705818,
+        "stop" : 1650627716238,
+        "duration" : 10420
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db603b90027a63f7.json",
+  "parameterValues" : [ "Chrome-100.0.4896.127" ]
+}

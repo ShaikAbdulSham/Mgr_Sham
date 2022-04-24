@@ -1,0 +1,197 @@
+{
+  "uid" : "5400db11013bca78",
+  "name" : "search any from Searchtext",
+  "fullName" : "SignUp Login and Update Cart Application.search any from Searchtext",
+  "historyId" : "11b8a7b90f37541c554e662cdba8c80c",
+  "time" : {
+    "start" : 1650371566330,
+    "stop" : 1650371569498,
+    "duration" : 3168
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650371566332,
+        "stop" : 1650371566337,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c08dd460c40568d3",
+        "name" : "Request",
+        "source" : "c08dd460c40568d3.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "40453ea08d5a70c6",
+        "name" : "Response",
+        "source" : "40453ea08d5a70c6.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementClear",
+      "time" : {
+        "start" : 1650371566342,
+        "stop" : 1650371566348,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f20b46bbe602bf3",
+        "name" : "Request",
+        "source" : "9f20b46bbe602bf3.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementSendKeys",
+      "time" : {
+        "start" : 1650371566355,
+        "stop" : 1650371566385,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "170fe9152e15b3be",
+        "name" : "Request",
+        "source" : "170fe9152e15b3be.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650371566393,
+        "stop" : 1650371566400,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c94160ab6acff0a",
+        "name" : "Request",
+        "source" : "9c94160ab6acff0a.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "79a0ef9b29275f1",
+        "name" : "Response",
+        "source" : "79a0ef9b29275f1.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementClick",
+      "time" : {
+        "start" : 1650371566410,
+        "stop" : 1650371566483,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55398ad10d3c3df5",
+        "name" : "Request",
+        "source" : "55398ad10d3c3df5.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "search any from Searchtext"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8a25d4e29f3653b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371534243,
+        "stop" : 1650371537389,
+        "duration" : 3146
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5400db11013bca78.json",
+  "parameterValues" : [ "Chrome-100.0.4896.88" ]
+}

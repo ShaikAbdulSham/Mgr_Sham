@@ -1,0 +1,95 @@
+{
+  "uid" : "63ef2a8e971ff147",
+  "name" : "navigate to Sign In Page",
+  "fullName" : "SignUp Login and Update Cart Application.navigate to Sign In Page",
+  "historyId" : "82799517970f95cd9684bb1ceac2eca9",
+  "time" : {
+    "start" : 1650368538054,
+    "stop" : 1650368538999,
+    "duration" : 945
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "homePage is not defined",
+  "statusTrace" : "ReferenceError: homePage is not defined\n                    at Context.<anonymous> (C:\\Users\\shameera\\Documents\\wdiosample\\test\\specs\\/common.spec.js:22:9)\n                    at Context.executeAsync (C:\\Users\\shameera\\Documents\\wdiosample\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\shameera\\Documents\\wdiosample\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "homePage is not defined",
+    "statusTrace" : "ReferenceError: homePage is not defined\n                    at Context.<anonymous> (C:\\Users\\shameera\\Documents\\wdiosample\\test\\specs\\/common.spec.js:22:9)\n                    at Context.executeAsync (C:\\Users\\shameera\\Documents\\wdiosample\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\shameera\\Documents\\wdiosample\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+    "steps" : [ {
+      "name" : "takeScreenshot",
+      "time" : {
+        "start" : 1650368538067,
+        "stop" : 1650368538998,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e74da4d5ff03ca9",
+        "name" : "Screenshot",
+        "source" : "7e74da4d5ff03ca9.png",
+        "type" : "image/png",
+        "size" : 2361808
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigate to Sign In Page"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63ef2a8e971ff147.json",
+  "parameterValues" : [ "Chrome-100.0.4896.88" ]
+}

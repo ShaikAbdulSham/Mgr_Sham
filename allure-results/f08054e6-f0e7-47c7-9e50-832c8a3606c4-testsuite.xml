@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650368560835' stop='1650368576810'>
+    <name>SignUp Login and Update Cart Application</name>
+    <title>SignUp Login and Update Cart Application</title>
+    <test-cases>
+        <test-case start='1650368560836' status='passed' stop='1650368575800'>
+            <name>verify the Title</name>
+            <title>verify the Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1650368560844' status='passed' stop='1650368575742'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1650368560847' status='passed' stop='1650368560853'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='481755ef-5619-4602-9edf-7e20bbaef50c-attachment.json' type='application/json' size='54'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1650368575791' status='passed' stop='1650368575795'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments>
+                        <attachment title='Response' source='b5950f1b-a711-458f-9ece-e730c797534b-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1650368575800' status='passed' stop='1650368575842'>
+            <name>verify the SignIn Button</name>
+            <title>verify the SignIn Button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1650368575804' status='passed' stop='1650368575812'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='e7e6fd27-7a5a-4c0d-88d6-edc00f7b8e0f-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='6cc2df39-75aa-456a-8cc5-98d131ffa78f-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1650368575824' status='passed' stop='1650368575835'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='6f20a820-a08d-40f2-a827-7eae131b9055-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='edab5de1-86e7-4316-9e7b-fa8f4ff4bf63-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1650368575842' status='broken' stop='1650368576806'>
+            <name>navigate to Sign In Page</name>
+            <title>navigate to Sign In Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-100.0.4896.88'/>
+            </parameters>
+            <steps>
+                <step start='1650368575853' status='passed' stop='1650368576804'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='df2c7906-9476-41a5-86b2-46168c56d53e-attachment.png' type='image/png' size='2177166'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>homePage is not defined</message>
+                <stack-trace>ReferenceError: homePage is not defined
+                    at Context.&lt;anonymous> (C:\Users\shameera\Documents\wdiosample\test\specs\/common.spec.js:22:9)
+                    at Context.executeAsync (C:\Users\shameera\Documents\wdiosample\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\shameera\Documents\wdiosample\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

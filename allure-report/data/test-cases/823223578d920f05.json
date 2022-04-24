@@ -1,0 +1,214 @@
+{
+  "uid" : "823223578d920f05",
+  "name" : "search any from Searchtext",
+  "fullName" : "SignUp Login and Update Cart Application.search any from Searchtext",
+  "historyId" : "f5e661d9f778fe7c87945b2428b21720",
+  "time" : {
+    "start" : 1650639924061,
+    "stop" : 1650639927280,
+    "duration" : 3219
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650639924067,
+        "stop" : 1650639924076,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "19f154a496189d50",
+        "name" : "Request",
+        "source" : "19f154a496189d50.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "8383b926431d8500",
+        "name" : "Response",
+        "source" : "8383b926431d8500.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementClear",
+      "time" : {
+        "start" : 1650639924098,
+        "stop" : 1650639924109,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "320e5e9318728ea6",
+        "name" : "Request",
+        "source" : "320e5e9318728ea6.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementSendKeys",
+      "time" : {
+        "start" : 1650639924119,
+        "stop" : 1650639924168,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ff729cb91b9552",
+        "name" : "Request",
+        "source" : "6ff729cb91b9552.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650639924173,
+        "stop" : 1650639924188,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4f2aceb632d2403",
+        "name" : "Request",
+        "source" : "c4f2aceb632d2403.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "488038aaed758023",
+        "name" : "Response",
+        "source" : "488038aaed758023.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementClick",
+      "time" : {
+        "start" : 1650639924198,
+        "stop" : 1650639924272,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aeaa917ce8d4a2ab",
+        "name" : "Request",
+        "source" : "aeaa917ce8d4a2ab.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "search any from Searchtext"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b4a768269a4f36ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639868038,
+        "stop" : 1650639871286,
+        "duration" : 3248
+      }
+    }, {
+      "uid" : "d8f8878b6b235e6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650627735467,
+        "stop" : 1650627738937,
+        "duration" : 3470
+      }
+    }, {
+      "uid" : "84025dd8cc8ded80",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#search_query_top\" because element wasn't found",
+      "time" : {
+        "start" : 1650627695524,
+        "stop" : 1650627705817,
+        "duration" : 10293
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "823223578d920f05.json",
+  "parameterValues" : [ "Chrome-100.0.4896.127" ]
+}

@@ -1,0 +1,812 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "verify the Title",
+      "uid" : "8c4517845c15d967",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639914874,
+        "stop" : 1650639923038,
+        "duration" : 8164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "6926409121ee8b9b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368538007,
+        "stop" : 1650368538053,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "f2fc31edfade1e1d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650627735392,
+        "stop" : 1650627735466,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "437c8d5b66797eee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639871286,
+        "stop" : 1650639879045,
+        "duration" : 7759
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "ac717ed55d3a2d95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1650639923040,
+        "stop" : 1650639924057,
+        "duration" : 1017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "db603b90027a63f7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639927281,
+        "stop" : 1650639934006,
+        "duration" : 6725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "518afe804b05ab15",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650370138873,
+        "stop" : 1650370144928,
+        "duration" : 6055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "de603d17d0721412",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650358784116,
+        "stop" : 1650358790304,
+        "duration" : 6188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "search any from Searchtext",
+      "uid" : "b4a768269a4f36ea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639868038,
+        "stop" : 1650639871286,
+        "duration" : 3248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "958e216135fd15bc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650370138833,
+        "stop" : 1650370138873,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "search any from Searchtext",
+      "uid" : "8a25d4e29f3653b4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371534243,
+        "stop" : 1650371537389,
+        "duration" : 3146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "244aac90868cdd3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650370107773,
+        "stop" : 1650370138832,
+        "duration" : 31059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "ae0dac41a811630b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371569499,
+        "stop" : 1650371575557,
+        "duration" : 6058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "8746a659558e21af",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371514577,
+        "stop" : 1650371528137,
+        "duration" : 13560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "a3bfc99227c44610",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1650627695255,
+        "stop" : 1650627695522,
+        "duration" : 267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "c2f5af1ad0563f1e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371528139,
+        "stop" : 1650371528181,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "fc77999e995fc0c6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650346703692,
+        "stop" : 1650346715681,
+        "duration" : 11989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "search any from Searchtext",
+      "uid" : "5400db11013bca78",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371566330,
+        "stop" : 1650371569498,
+        "duration" : 3168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "198921bcefb9f168",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639859038,
+        "stop" : 1650639867965,
+        "duration" : 8927
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "c1b898632a990055",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368187553,
+        "stop" : 1650368216711,
+        "duration" : 29158
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "abc829987bfa92a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650627738938,
+        "stop" : 1650627745015,
+        "duration" : 6077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "search any from Searchtext",
+      "uid" : "823223578d920f05",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639924061,
+        "stop" : 1650639927280,
+        "duration" : 3219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "63ef2a8e971ff147",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1650368538054,
+        "stop" : 1650368538999,
+        "duration" : 945
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "ae817342fc4e7a51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368560836,
+        "stop" : 1650368575800,
+        "duration" : 14964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "129626c0773cdcae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1650358744106,
+        "stop" : 1650358744266,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Logo",
+      "uid" : "a0a8d8d7e29ce247",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650358362588,
+        "stop" : 1650358384903,
+        "duration" : 22315
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "440de6ddd5d0915d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650360741522,
+        "stop" : 1650360771584,
+        "duration" : 30062
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "e61c377919eb93e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650346761522,
+        "stop" : 1650346773352,
+        "duration" : 11830
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "6faf0d38f07a0249",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650627694941,
+        "stop" : 1650627695252,
+        "duration" : 311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "verify simple login test",
+      "uid" : "a35ad1bacb959415",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650347220632,
+        "stop" : 1650347233814,
+        "duration" : 13182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "be56476e9b1dfbea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1650368575842,
+        "stop" : 1650368576806,
+        "duration" : 964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "8444f45fdfde36b3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368575800,
+        "stop" : 1650368575842,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "aa971b3f0297e1e0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368527686,
+        "stop" : 1650368538007,
+        "duration" : 10321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "74bcf18577a1742d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650360771585,
+        "stop" : 1650360771653,
+        "duration" : 68
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "3e541cd5fae15586",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650358660649,
+        "stop" : 1650358660668,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "cd3ff88183e240a0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371528181,
+        "stop" : 1650371534242,
+        "duration" : 6061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "1da2371ef6066ec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650639867967,
+        "stop" : 1650639868038,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "search any from Searchtext",
+      "uid" : "d8f8878b6b235e6a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650627735467,
+        "stop" : 1650627738937,
+        "duration" : 3470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "1879ad1b4c4fcf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368216752,
+        "stop" : 1650368222758,
+        "duration" : 6006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "9b9fca3853418e3f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368216713,
+        "stop" : 1650368216752,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "27ea7d813f268dca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650627729031,
+        "stop" : 1650627735390,
+        "duration" : 6359
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "verify the SignIn Button",
+      "uid" : "6798e37efd071440",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371566292,
+        "stop" : 1650371566330,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "navigate to Sign In Page",
+      "uid" : "2f7a7424366f3424",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1650627705818,
+        "stop" : 1650627716238,
+        "duration" : 10420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "search any from Searchtext",
+      "uid" : "84025dd8cc8ded80",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1650627695524,
+        "stop" : 1650627705817,
+        "duration" : 10293
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.127" ]
+    }, {
+      "name" : "verify the Title",
+      "uid" : "dc0a8e4b279908f3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371561024,
+        "stop" : 1650371566291,
+        "duration" : 5267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "verify simple login test",
+      "uid" : "dd3393ae02eb284f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650346761258,
+        "stop" : 1650346772721,
+        "duration" : 11463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    }, {
+      "name" : "verify simple login test",
+      "uid" : "a6974f419830897e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650346703501,
+        "stop" : 1650346715125,
+        "duration" : 11624
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-100.0.4896.88" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  } ]
+}

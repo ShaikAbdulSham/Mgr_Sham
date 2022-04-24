@@ -1,0 +1,149 @@
+{
+  "uid" : "a3bfc99227c44610",
+  "name" : "verify the SignIn Button",
+  "fullName" : "SignUp Login and Update Cart Application.verify the SignIn Button",
+  "historyId" : "80747b8dc39b9044c91c1cadf2bc591a",
+  "time" : {
+    "start" : 1650627695255,
+    "stop" : 1650627695522,
+    "duration" : 267
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+  "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at Context.<anonymous> (C:\\Users\\shameera\\Documents\\wdiosample\\test\\specs\\/common.spec.js:17:63)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false",
+    "statusTrace" : "Error: expect(received).toEqual(expected) // deep equality\n                \n                Expected: true\n                Received: false\n                    at Context.<anonymous> (C:\\Users\\shameera\\Documents\\wdiosample\\test\\specs\\/common.spec.js:17:63)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650627695262,
+        "stop" : 1650627695275,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31477fac5e9b26d",
+        "name" : "Request",
+        "source" : "31477fac5e9b26d.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "f10cb64c72415d82",
+        "name" : "Response",
+        "source" : "f10cb64c72415d82.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElements",
+      "time" : {
+        "start" : 1650627695295,
+        "stop" : 1650627695313,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d273ad67028b614a",
+        "name" : "Request",
+        "source" : "d273ad67028b614a.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "9bda46801acfffc8",
+        "name" : "Response",
+        "source" : "9bda46801acfffc8.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "takeScreenshot",
+      "time" : {
+        "start" : 1650627695341,
+        "stop" : 1650627695517,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c67ce61e7ca8e6e",
+        "name" : "Screenshot",
+        "source" : "4c67ce61e7ca8e6e.png",
+        "type" : "image/png",
+        "size" : 23491
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify the SignIn Button"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-100.0.4896.127"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3bfc99227c44610.json",
+  "parameterValues" : [ "Chrome-100.0.4896.127" ]
+}

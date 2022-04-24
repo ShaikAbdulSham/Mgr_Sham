@@ -1,0 +1,162 @@
+{
+  "uid" : "ae0dac41a811630b",
+  "name" : "navigate to Sign In Page",
+  "fullName" : "SignUp Login and Update Cart Application.navigate to Sign In Page",
+  "historyId" : "82799517970f95cd9684bb1ceac2eca9",
+  "time" : {
+    "start" : 1650371569499,
+    "stop" : 1650371575557,
+    "duration" : 6058
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650371569505,
+        "stop" : 1650371569510,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a679fdee02a9045",
+        "name" : "Request",
+        "source" : "a679fdee02a9045.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "2b40cd7fe743a4ff",
+        "name" : "Response",
+        "source" : "2b40cd7fe743a4ff.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementClick",
+      "time" : {
+        "start" : 1650371569516,
+        "stop" : 1650371569551,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5dd3e4a767b84943",
+        "name" : "Request",
+        "source" : "5dd3e4a767b84943.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigate to Sign In Page"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cd3ff88183e240a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371528181,
+        "stop" : 1650371534242,
+        "duration" : 6061
+      }
+    }, {
+      "uid" : "518afe804b05ab15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650370138873,
+        "stop" : 1650370144928,
+        "duration" : 6055
+      }
+    }, {
+      "uid" : "be56476e9b1dfbea",
+      "status" : "broken",
+      "statusDetails" : "homePage is not defined",
+      "time" : {
+        "start" : 1650368575842,
+        "stop" : 1650368576806,
+        "duration" : 964
+      }
+    }, {
+      "uid" : "63ef2a8e971ff147",
+      "status" : "broken",
+      "statusDetails" : "homePage is not defined",
+      "time" : {
+        "start" : 1650368538054,
+        "stop" : 1650368538999,
+        "duration" : 945
+      }
+    }, {
+      "uid" : "1879ad1b4c4fcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368216752,
+        "stop" : 1650368222758,
+        "duration" : 6006
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae0dac41a811630b.json",
+  "parameterValues" : [ "Chrome-100.0.4896.88" ]
+}

@@ -1,0 +1,174 @@
+{
+  "uid" : "6798e37efd071440",
+  "name" : "verify the SignIn Button",
+  "fullName" : "SignUp Login and Update Cart Application.verify the SignIn Button",
+  "historyId" : "3008013a466d68ab99aeb2a01b2331d9",
+  "time" : {
+    "start" : 1650371566292,
+    "stop" : 1650371566330,
+    "duration" : 38
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650371566297,
+        "stop" : 1650371566305,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57719434351e9608",
+        "name" : "Request",
+        "source" : "57719434351e9608.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "dddd4eb9135d733f",
+        "name" : "Response",
+        "source" : "dddd4eb9135d733f.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElements",
+      "time" : {
+        "start" : 1650371566315,
+        "stop" : 1650371566325,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18b647ac374eec71",
+        "name" : "Request",
+        "source" : "18b647ac374eec71.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "e35448318a33a984",
+        "name" : "Response",
+        "source" : "e35448318a33a984.json",
+        "type" : "application/json",
+        "size" : 66
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify the SignIn Button"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2f5af1ad0563f1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650371528139,
+        "stop" : 1650371528181,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "958e216135fd15bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650370138833,
+        "stop" : 1650370138873,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "8444f45fdfde36b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368575800,
+        "stop" : 1650368575842,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "6926409121ee8b9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368538007,
+        "stop" : 1650368538053,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "9b9fca3853418e3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650368216713,
+        "stop" : 1650368216752,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "74bcf18577a1742d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650360771585,
+        "stop" : 1650360771653,
+        "duration" : 68
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6798e37efd071440.json",
+  "parameterValues" : [ "Chrome-100.0.4896.88" ]
+}

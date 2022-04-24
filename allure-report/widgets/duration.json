@@ -1,0 +1,111 @@
+[ {
+  "uid" : "dc0a8e4b279908f3",
+  "name" : "verify the Title",
+  "time" : {
+    "start" : 1650371561024,
+    "stop" : 1650371566291,
+    "duration" : 5267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db603b90027a63f7",
+  "name" : "navigate to Sign In Page",
+  "time" : {
+    "start" : 1650639927281,
+    "stop" : 1650639934006,
+    "duration" : 6725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5400db11013bca78",
+  "name" : "search any from Searchtext",
+  "time" : {
+    "start" : 1650371566330,
+    "stop" : 1650371569498,
+    "duration" : 3168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6798e37efd071440",
+  "name" : "verify the SignIn Button",
+  "time" : {
+    "start" : 1650371566292,
+    "stop" : 1650371566330,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac717ed55d3a2d95",
+  "name" : "verify the SignIn Button",
+  "time" : {
+    "start" : 1650639923040,
+    "stop" : 1650639924057,
+    "duration" : 1017
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "823223578d920f05",
+  "name" : "search any from Searchtext",
+  "time" : {
+    "start" : 1650639924061,
+    "stop" : 1650639927280,
+    "duration" : 3219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae0dac41a811630b",
+  "name" : "navigate to Sign In Page",
+  "time" : {
+    "start" : 1650371569499,
+    "stop" : 1650371575557,
+    "duration" : 6058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c4517845c15d967",
+  "name" : "verify the Title",
+  "time" : {
+    "start" : 1650639914874,
+    "stop" : 1650639923038,
+    "duration" : 8164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a35ad1bacb959415",
+  "name" : "verify simple login test",
+  "time" : {
+    "start" : 1650347220632,
+    "stop" : 1650347233814,
+    "duration" : 13182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0a8d8d7e29ce247",
+  "name" : "verify the Logo",
+  "time" : {
+    "start" : 1650358362588,
+    "stop" : 1650358384903,
+    "duration" : 22315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e61c377919eb93e2",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1650346761522,
+    "stop" : 1650346773352,
+    "duration" : 11830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

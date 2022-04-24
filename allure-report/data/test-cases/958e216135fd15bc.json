@@ -1,0 +1,124 @@
+{
+  "uid" : "958e216135fd15bc",
+  "name" : "verify the SignIn Button",
+  "fullName" : "SignUp Login and Update Cart Application.verify the SignIn Button",
+  "historyId" : "3008013a466d68ab99aeb2a01b2331d9",
+  "time" : {
+    "start" : 1650370138833,
+    "stop" : 1650370138873,
+    "duration" : 40
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1650370138839,
+        "stop" : 1650370138846,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7739106703063410",
+        "name" : "Request",
+        "source" : "7739106703063410.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "b77570acf5b0a163",
+        "name" : "Response",
+        "source" : "b77570acf5b0a163.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElements",
+      "time" : {
+        "start" : 1650370138860,
+        "stop" : 1650370138866,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f8bf66fbc24219d6",
+        "name" : "Request",
+        "source" : "f8bf66fbc24219d6.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "96090970971c06d0",
+        "name" : "Response",
+        "source" : "96090970971c06d0.json",
+        "type" : "application/json",
+        "size" : 66
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify the SignIn Button"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Login and Update Cart Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-100.0.4896.88"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "958e216135fd15bc.json",
+  "parameterValues" : [ "Chrome-100.0.4896.88" ]
+}
