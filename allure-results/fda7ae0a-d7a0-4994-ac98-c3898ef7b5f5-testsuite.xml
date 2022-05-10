@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652192073847' stop='1652192086020'>
+    <name>SignUp Login and Update Cart Application</name>
+    <title>SignUp Login and Update Cart Application</title>
+    <test-cases>
+        <test-case start='1652192073847' status='passed' stop='1652192085280'>
+            <name>verify the Title</name>
+            <title>verify the Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652192073854' status='passed' stop='1652192085250'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652192073856' status='passed' stop='1652192073862'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='4d421efa-e779-4cdd-8226-e8ac45e46f6e-attachment.json' type='application/json' size='54'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652192085260' status='passed' stop='1652192085275'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments>
+                        <attachment title='Response' source='b604cd46-eb82-44e3-bb77-be1e52a8d40e-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1652192085281' status='failed' stop='1652192086014'>
+            <name>verify the SignIn Button</name>
+            <title>verify the SignIn Button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652192085286' status='passed' stop='1652192085295'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='9ff9b344-cb40-451a-b4a8-0ad382230621-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='3c646729-369b-40d3-be7a-8de83c47f759-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652192085307' status='passed' stop='1652192085316'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='79d5b8e3-fc33-45bf-b728-a564cf927e19-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='474903b3-f74d-42f9-be4e-d6836d12bef3-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652192085329' status='passed' stop='1652192086013'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d7414d7a-3e89-4f8d-a2f3-b834d999c179-attachment.png' type='image/png' size='2180754'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: false
+                Received: true
+                    at Context.&lt;anonymous> (C:\Users\shameera\Documents\wdiosample\test\specs\/common.spec.js:19:63)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652192086015' status='pending' stop='1652192086015'>
+            <name>search any from Searchtext</name>
+            <title>search any from Searchtext</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652192086015' status='pending' stop='1652192086015'>
+            <name>navigate to Sign In Page</name>
+            <title>navigate to Sign In Page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

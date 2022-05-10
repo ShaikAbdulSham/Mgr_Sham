@@ -11,11 +11,11 @@ get btn_CreateAccount()
     return $('#SubmitCreate');
 }
 // sign in credentials
-get input_Email()
+get input_Login_Email()
 {
     return $('#email');
 }
-get input_Password()
+get input_Login_Password()
 {
     return $('#passwd');
 }

@@ -1,0 +1,140 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652192181836' stop='1652192202429'>
+    <name>SignUp Login and Update Cart Application</name>
+    <title>SignUp Login and Update Cart Application</title>
+    <test-cases>
+        <test-case start='1652192181837' status='passed' stop='1652192194499'>
+            <name>verify the Title</name>
+            <title>verify the Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652192181842' status='passed' stop='1652192194413'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652192181845' status='passed' stop='1652192181851'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='70357add-ed43-4865-94cf-74bc4f7afbe1-attachment.json' type='application/json' size='54'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652192194487' status='passed' stop='1652192194492'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments>
+                        <attachment title='Response' source='f3d4e293-c87b-40f8-b544-448662d5e690-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1652192194501' status='failed' stop='1652192202421'>
+            <name>verify the SignIn Button</name>
+            <title>verify the SignIn Button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652192194507' status='failed' stop='1652192202421'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='2a0cfa99-b403-4762-b08d-6f2ffe694ee9-attachment.json' type='application/json' size='51'/>
+                    </attachments>
+                    <steps>
+                        <step start='1652192194510' status='passed' stop='1652192201713'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='3b267843-5221-41c1-aef5-0c17a9c83c12-attachment.json' type='application/json' size='54'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1652192201729' status='passed' stop='1652192201734'>
+                            <name>findElement</name>
+                            <title>findElement</title>
+                            <attachments>
+                                <attachment title='Request' source='e6de5d5d-8e57-4a68-b2a7-c4742366d749-attachment.json' type='application/json' size='51'/>
+                                <attachment title='Response' source='82833f61-6797-4aef-b2a4-9f59ef94a7e6-attachment.json' type='application/json' size='56'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1652192201746' status='passed' stop='1652192201753'>
+                            <name>findElements</name>
+                            <title>findElements</title>
+                            <attachments>
+                                <attachment title='Request' source='5b05f275-027b-4ebb-a06f-c50d534a6eca-attachment.json' type='application/json' size='51'/>
+                                <attachment title='Response' source='d345e62a-60ca-4638-a917-6f86673bcf5c-attachment.json' type='application/json' size='66'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1652192201768' status='passed' stop='1652192202419'>
+                            <name>takeScreenshot</name>
+                            <title>takeScreenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='3139882b-4392-4ab5-849e-98483c8557c9-attachment.png' type='image/png' size='2180754'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: false
+                Received: true
+                    at Context.&lt;anonymous> (C:\Users\shameera\Documents\wdiosample\test\specs\/common.spec.js:21:63)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652192202423' status='pending' stop='1652192202423'>
+            <name>search any from Searchtext</name>
+            <title>search any from Searchtext</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652192202423' status='pending' stop='1652192202423'>
+            <name>navigate to Sign In Page</name>
+            <title>navigate to Sign In Page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

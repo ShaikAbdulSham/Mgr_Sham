@@ -36,9 +36,6 @@ class HomePage
     {
         await (await this.search_Box).setValue(data);
         await (await this.btn_Search).click();
-        
-
-
     }
 
 }

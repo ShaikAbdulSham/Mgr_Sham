@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652070136555' stop='1652070136748'>
+    <name>sample product search</name>
+    <title>sample product search</title>
+    <test-cases>
+        <test-case start='1652070136556' status='broken' stop='1652070136746'>
+            <name>check search items</name>
+            <title>check search items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652070136582' status='passed' stop='1652070136743'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cdd4d03a-b759-4c43-ba5d-731bec109805-attachment.png' type='image/png' size='7589'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unique_arr is not defined</message>
+                <stack-trace>ReferenceError: unique_arr is not defined
+                    at findsecond_greatest_smallest (C:\Users\shameera\Documents\wdiosample\test\specs\/test.js:122:15)
+                    at Context.&lt;anonymous> (C:\Users\shameera\Documents\wdiosample\test\specs\/test.js:126:13)
+                    at Context.executeAsync (C:\Users\shameera\Documents\wdiosample\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\shameera\Documents\wdiosample\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

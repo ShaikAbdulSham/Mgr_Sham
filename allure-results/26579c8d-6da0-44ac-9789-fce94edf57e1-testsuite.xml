@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651992038562' stop='1651992050329'>
+    <name>sample product search</name>
+    <title>sample product search</title>
+    <test-cases>
+        <test-case start='1651992038562' status='broken' stop='1651992050327'>
+            <name>check search items</name>
+            <title>check search items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1651992038568' status='broken' stop='1651992050326'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='0a97baae-4482-41d4-a0ab-d2dc254c21e9-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps>
+                        <step start='1651992050170' status='passed' stop='1651992050323'>
+                            <name>takeScreenshot</name>
+                            <title>takeScreenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='ae474070-1480-449f-879b-b15f9e2c41b1-attachment.png' type='image/png' size='25351'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>net::ERR_NAME_NOT_RESOLVED at https://www.amazon.in/</message>
+                <stack-trace>net::ERR_NAME_NOT_RESOLVED at https://www.amazon.in/
+                Error: net::ERR_NAME_NOT_RESOLVED at https://www.amazon.in/
+                    at navigate (C:\Users\shameera\Documents\wdiosample\node_modules\puppeteer-core\src\common\FrameManager.ts:218:13)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at FrameManager.navigateFrame (C:\Users\shameera\Documents\wdiosample\node_modules\puppeteer-core\src\common\FrameManager.ts:188:17)
+                    at Frame.goto (C:\Users\shameera\Documents\wdiosample\node_modules\puppeteer-core\src\common\FrameManager.ts:765:12)
+                    at Page.goto (C:\Users\shameera\Documents\wdiosample\node_modules\puppeteer-core\src\common\Page.ts:1766:12)
+                    at DevToolsDriver.navigateTo (C:\Users\shameera\Documents\wdiosample\node_modules\devtools\build\commands\navigateTo.js:18:5)
+                    at Browser.wrappedCommand (C:\Users\shameera\Documents\wdiosample\node_modules\devtools\build\devtoolsdriver.js:102:26)
+                    at Browser.wrapCommandFn (C:\Users\shameera\Documents\wdiosample\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.wrapCommandFn (C:\Users\shameera\Documents\wdiosample\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\shameera\Documents\wdiosample\test\specs\/test.js:5:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

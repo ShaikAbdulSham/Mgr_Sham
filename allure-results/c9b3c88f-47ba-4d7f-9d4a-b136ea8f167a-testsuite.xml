@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652012953169' stop='1652012953338'>
+    <name>sample product search</name>
+    <title>sample product search</title>
+    <test-cases>
+        <test-case start='1652012953169' status='broken' stop='1652012953337'>
+            <name>check search items</name>
+            <title>check search items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652012953185' status='passed' stop='1652012953336'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9b3badd2-29ee-4947-bfa0-6145c8bb55ab-attachment.png' type='image/png' size='7589'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'getB')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'getB')
+                    at Context.&lt;anonymous> (C:\Users\shameera\Documents\wdiosample\test\specs\/test.js:131:13)
+                    at Context.executeAsync (C:\Users\shameera\Documents\wdiosample\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\shameera\Documents\wdiosample\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

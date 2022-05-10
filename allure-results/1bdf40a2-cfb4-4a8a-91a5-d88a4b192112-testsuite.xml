@@ -1,0 +1,196 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652182430447' stop='1652182501998'>
+    <name>SignUp Login and Update Cart Application</name>
+    <title>SignUp Login and Update Cart Application</title>
+    <test-cases>
+        <test-case start='1652182430448' status='passed' stop='1652182437386'>
+            <name>verify the Title</name>
+            <title>verify the Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652182430464' status='passed' stop='1652182437312'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1652182430467' status='passed' stop='1652182430480'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='11467d9d-0908-4747-9192-cb7d10d12e68-attachment.json' type='application/json' size='54'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1652182437364' status='passed' stop='1652182437373'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments>
+                        <attachment title='Response' source='81238cf4-4005-428a-8692-38dca6a7f1eb-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1652182437388' status='failed' stop='1652182438701'>
+            <name>verify the SignIn Button</name>
+            <title>verify the SignIn Button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652182437400' status='passed' stop='1652182437415'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='49435a77-df22-4c8b-a49f-d671725d37b7-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='d75b86cc-9fd1-4b75-bfe2-f0b33fef23a7-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652182437441' status='passed' stop='1652182437457'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='fdccd159-a908-4d30-9f6f-905f7059db41-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='8d49b182-4a30-460c-8ffe-a2458703142c-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652182437484' status='passed' stop='1652182438698'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3bfc9774-a310-4e90-aa01-e097a59647cf-attachment.png' type='image/png' size='2281279'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: false
+                Received: true</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: false
+                Received: true
+                    at Context.&lt;anonymous> (C:\Users\shameera\Documents\wdiosample\test\specs\/common.spec.js:19:63)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652182438703' status='passed' stop='1652182441987'>
+            <name>search any from Searchtext</name>
+            <title>search any from Searchtext</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652182438708' status='passed' stop='1652182438721'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='9a6cddd6-d983-4bfa-85e1-ecc9d784a052-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='e5517dac-de8d-4475-911d-df004d6963f3-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652182438732' status='passed' stop='1652182438747'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='7a3aff7c-d290-4c05-9163-59e891570d8d-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652182438763' status='passed' stop='1652182438832'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='da689b46-cc12-483b-a612-62f517197ce8-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652182438839' status='passed' stop='1652182438849'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='f64e8d63-ba63-460d-85fc-7aa988024f61-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='4ee304c4-dc8d-4632-b1d7-09c59739f1bf-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652182438861' status='passed' stop='1652182438976'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='04c24a89-98c4-4cc7-ad83-2ed70f940778-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1652182441987' status='broken' stop='1652182501996'>
+            <name>navigate to Sign In Page</name>
+            <title>navigate to Sign In Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652182442458' status='passed' stop='1652182442464'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='49655bc8-f3f4-4470-8c13-401219714201-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='7d566801-a54d-4477-94c3-9c7a5914bbf0-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652182442469' status='broken' stop='1652182501996'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='6ce529d9-64a6-4e7a-95fa-811f46cbb200-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "SignUp Login and Update Cart Application navigate to Sign In Page" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\shameera\Documents\wdiosample\test\specs\common.spec.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "SignUp Login and Update Cart Application navigate to Sign In Page" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\shameera\Documents\wdiosample\test\specs\common.spec.js)
+                    at createTimeoutError (C:\Users\shameera\Documents\wdiosample\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\shameera\Documents\wdiosample\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\shameera\Documents\wdiosample\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
