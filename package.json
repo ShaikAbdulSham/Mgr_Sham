@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run wdio.conf.js"
+    "test": "npx wdio run wdio.conf.js && wdio-junit-to-html -i ./JunitReports -o ./JunitReports"
   },
   "author": "Shameera",
   "license": "ISC",
   "dependencies": {
     "@wdio/cli": "^7.19.5",
     "allure": "^0.0.0",
+    "wdio-junit-to-html": "^3.1.2",
     "webdriverio": "^7.19.5"
   },
   "devDependencies": {
