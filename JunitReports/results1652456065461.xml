@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="herokuapp website sample test" timestamp="2022-05-13T21:04:26" time="4.661" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="herokuapp website sample test"/>
+      <property name="capabilities" value="chrome.101_0_4951_54.windows"/>
+      <property name="file" value=".\test\specs\herokuapp.spec.js"/>
+    </properties>
+  </testsuite>
+  <testsuite name="nesgted describe" timestamp="2022-05-13T21:04:26" time="4.66" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="nesgted describe"/>
+      <property name="capabilities" value="chrome.101_0_4951_54.windows"/>
+      <property name="file" value=".\test\specs\herokuapp.spec.js"/>
+    </properties>
+    <testcase classname="chrome.101_0_4951_54.windows.herokuapp_website_sample_test.nesgted_describe" name="verify simple login test" time="4.65">
+      <system-out><![CDATA[
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element - {"using":"xpath","value":"//button[@type=\"submit\"]"}
+RESULT: {"using":"xpath","value":"//button[@type=\"submit\"]"}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element/e831f72e-edcb-4344-ba84-2f7a51ce8c41/clear - {}
+RESULT: {}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element/e831f72e-edcb-4344-ba84-2f7a51ce8c41/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element/61de700f-f299-4710-a863-bf2c6472b085/clear - {}
+RESULT: {}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element/61de700f-f299-4710-a863-bf2c6472b085/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element/aff8b384-61dc-41b2-ab22-55b5425c65ff/click - {}
+RESULT: {}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/elements - {"using":"css selector","value":"#flash"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.101_0_4951_54.windows.herokuapp_website_sample_test.nesgted_describe" name="some simple calculations" time="0.002"/>
+  </testsuite>
+  <testsuite name="second describe block" timestamp="2022-05-13T21:04:31" time="0.001" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="second describe block"/>
+      <property name="capabilities" value="chrome.101_0_4951_54.windows"/>
+      <property name="file" value=".\test\specs\herokuapp.spec.js"/>
+    </properties>
+    <testcase classname="chrome.101_0_4951_54.windows.second_describe_block" name="second describe it block" time="0.001">
+      <system-out><![CDATA[
+COMMAND: DELETE /session/b6ad6a270b1c635b3ad15642aaa38cea - {}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: POST /session/b6ad6a270b1c635b3ad15642aaa38cea/element - {"using":"css selector","value":"#flash"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
