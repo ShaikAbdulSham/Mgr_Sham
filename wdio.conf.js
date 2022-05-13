@@ -135,7 +135,7 @@ exports.config = {
     reporters: ['spec', ['junit', {
         outputDir: './JunitReports',
         outputFileFormat: function(options) { // optional
-            return `results${new Date().toLocaleTimeString()}.xml`
+            return `results${new Date().getTime()}.xml`
         }
     }]],
 
