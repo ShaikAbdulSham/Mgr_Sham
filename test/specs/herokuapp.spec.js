@@ -16,6 +16,26 @@ describe('herokuapp website sample test',async function(){
             
                     })
 
+                    it('some simple calculations' , async()=>{
+                            try{
+                      
+                        (function findMinMax(){
+                                const arr1=[1,4,623,8,3,2];
+                                const minNum=Math.min.apply(Math,arr1);
+                                const maxNum=Math.max.apply(Math,arr1);
+                                const total=arr1.reduce((acct,item)=>{ return acct=acct+item},0);
+                                console.log(total-minNum,total-maxNum);
+
+                        })();
+                }
+                catch(er)
+                {
+                        console.log('error message',er);
+                }
+
+                        
+                    })
+
         })
  
 
